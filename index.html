@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpg" href="favicon.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gregoire Fanclub</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        },
+        plugins: [require("daisyui")],
+      }
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.2.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="flex-none">
+        <button class="btn btn-square btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </button>
+      </div>
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl">Gregoire ❤️</a>
+      </div>
+      <div class="flex-none">
+        <button class="btn btn-square btn-ghost">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
+        </button>
+      </div>
+    </div>
+    <div class="card lg:card-side glass shadow-xl items-center mt-14">
+      <figure><img class="h-52" src="img/ski.PNG" alt="Album"></figure>
+      <div class="card-body">
+        <h2 class="card-title">On aime tous Gregoire</h2>
+        <p>Cliques sur le bouton pour acceder au compte insta du Fanclub 😘</p>
+        <div class="justify-end card-actions">
+          <button class="btn bg-gray-600 btn-primary">
+            <a href="https://www.instagram.com/gregoire_fanclub/">Ici</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card lg:card-side glass shadow-xl items-center mt-14">
+      <figure><img class="h-72" src="img/profile.JPG" alt="Album"></figure>
+      <div class="card-body">
+        <h2 class="card-title">Questions frequentes</h2>
+        <p>Un OnlyFan ? <br>
+        Oui Surement bientot ! <br>
+        Consultation a domicile ? 😏 <br>
+        Oui, et plus si affinitée 😏 !
+        </p>
+        
+      </div>
+    </div>
+    <footer class="p-4 footer bg-base-300 mt-14 text-base-content footer-center">
+      <div>
+        <p>Fanclub de Grégoire ❤️ | Créateur du site Anonyme</p>
+      </div>
+    </footer>
+  </body>
+</html>
